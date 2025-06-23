@@ -1,5 +1,3 @@
-# jonathanvkz.github.io
-
 ## Projects
 
 | Project                                                   | Description                                                                                              | Repository                                                                                                 |
