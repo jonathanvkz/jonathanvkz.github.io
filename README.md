@@ -1,7 +1,1 @@
-## Projects
-
-| Project                                                   | Description                                                                                              | Repository                                                                                                 |
-| --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **X350 Gameplayer Reverse Engineering** | Reverse engineering of firmware and software of the X350 handheld game console.                             | [<img src="https://img.shields.io/badge/GitHub-Repo-brightgreen?style=flat-square&logo=github">](https://github.com/unserpwt/x350-gameplayer) |
-| **RHDZ Robot Dog** | The 2nd iteration of the RH Robot Dog -  Source Code.                                         | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=flat-square&logo=github">](https://github.com/unserpwt/rh)                 |
-| **AdenineOS** | A hobby operating system with its custom programming language, built on Arduino Mega2560 and TFTs.                      | [<img src="https://img.shields.io/badge/GitHub-Repo-orange?style=flat-square&logo=github">](https://github.com/unserpwt/AdenineOS)         |
+## A website showing my projects and other things
