@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan VKZ</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .profile-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #333;
+        }
+        .profile-pic {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #0366d6;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f6f8fa;
+        }
+        .repo-link img {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Jonathan VKZ</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="https://github.com/unserpwt" target="_blank" class="profile-link">
+                <img src="https://avatars.githubusercontent.com/u/5752579?v=4" alt="GitHub Profile" class="profile-pic">
+                GitHub Profile
+            </a>
+        </nav>
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+           ...
+        </p>
+        <p>
+           ...
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Project</th>
+                    <th>Description</th>
+                    <th>Repository</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>X350 Gameplayer Reverse Engineering</strong></td>
+                    <td>Reverse engineering of firmware and software of the X350 handheld game console.</td>
+                    <td class="repo-link"><a href="https://github.com/unserpwt/x350-gameplayer" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-brightgreen?style=flat-square&logo=github" alt="X350 GitHub Repo"></a></td>
+                </tr>
+                <tr>
+                    <td><strong>RHDZ Robot Dog</strong></td>
+                    <td>The 2nd iteration of the RH Robot Dog - Source Code.</td>
+                    <td class="repo-link"><a href="https://github.com/unserpwt/rh" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-blue?style=flat-square&logo=github" alt="RHDZ Robot Dog GitHub Repo"></a></td>
+                </tr>
+                <tr>
+                    <td><strong>AdenineOS</strong></td>
+                    <td>A hobby operating system with its custom programming language, built on Arduino Mega2560 and TFTs.</td>
+                    <td class="repo-link"><a href="https://github.com/unserpwt/AdenineOS" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-orange?style=flat-square&logo=github" alt="AdenineOS GitHub Repo"></a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</body>
+</html>
